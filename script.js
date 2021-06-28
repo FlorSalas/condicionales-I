@@ -225,3 +225,64 @@
 //         resultado= "ha ingresado un dato invalido"
 // }
 // console.log (resultado);
+
+//bonus
+//1
+// let clave= 0000;
+// let balance= 100000;
+// let ingr= parseInt(prompt("ingrese su clave"));
+// let retiro;
+
+// if(ingr==clave){
+//     retiro= parseInt(prompt("cuanto desea retirar?"));
+//         if(retiro<=balance){
+//             alert("usted ha retirado: " + retiro );
+//             alert("su dinero disponible es de: " + (balance-retiro));
+//         }else if(retiro>balance){
+//              alert("no tiene saldo disponible para realizar la operacion");
+//         }
+// }else if(ingr!==clave){
+//     alert("ha ingresado una clave incorrecta");
+// }
+
+//2
+// let dia=parseInt(prompt("que dia nacio? ingrese la respuesta en numeros"));
+// let mes=parseInt(prompt("que mes nacio? ingrese la respuesta en numeros"));
+
+// if(dia>=21 && mes== 03 || dia<=19 && mes== 04){
+//     alert("usted es del signo aries");
+// }else if(dia>=20 && mes== 04 || dia<=21 && mes== 05){
+//     alert("usted es del signo tauro");
+// }else if(dia>=22 && mes== 05 || dia<=20 && mes== 06){
+//     alert("usted es del signo geminis");
+// }else if(dia>=21 && mes== 06 || dia<= && mes== 07){
+//     alert("usted es del signo cancer");
+// }else if(dia>=23 && mes== 07 || dia<=22 && mes== 08){ 
+//     alert("usted es del signo leo");
+// }else if(dia>=23 && mes== 08 || dia<=22 && mes== 09){
+//     alert("usted es del signo virgo");
+// }else if(dia>=23 && mes== 09 || dia<=22 && mes== 10){
+//     alert("usted es del signo libra");
+// }else if(dia>=2 && mes== 10 || dia<=22 && mes== 11){
+//     alert("usted es del signo escorpio");
+// }else if(dia>=23 && mes== 11 || dia<=21 && mes== 12){
+//     alert("usted es del signo sagitario");
+// }else if(dia>=22 && mes== 12 || dia<=20 && mes== 01){
+//     alert("usted es del signo capricornio");
+// }else if(dia>=21 && mes== 02 || dia<=18 && mes== 03){
+//     alert("usted es del signo acuario");
+// }else if(dia>=19 && mes== 02 || dia<=20 && mes== 03){
+//     alert("usted es del signo piscis");
+// }
+
+//3
+// let hora= parseFloat(prompt("ingrese la hora"));
+
+
+// if(hora>=12 && hora<19){
+//     alert("Buenas tardes :)");
+// }else if(hora>19.01 && hora<5){
+//     alert("Buenas noches :)");
+// }else if(hora>=5.01 && hora<11.59){
+//     alert("Buenos dias :)");
+// }
